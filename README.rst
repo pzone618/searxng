@@ -43,6 +43,15 @@ To fine-tune SearXNG, see `Configuration guide`_.
 
 Further information on *how-to* can be found `here <https://docs.searxng.org/admin/index.html>`_.
 
+Run on OrbStack (macOS)
+=======================
+
+Build from this checkout and start SearXNG with Valkey on OrbStack::
+
+    ./deploy/orbstack/deploy.sh    # then open http://localhost:8080
+
+See ``deploy/orbstack/README.md`` for configuration and troubleshooting.
+
 Connect
 =======
 
