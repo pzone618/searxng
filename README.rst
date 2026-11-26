@@ -61,6 +61,15 @@ Same flow with ``podman`` and ``podman-compose``::
 
 See ``deploy/podman/README.md`` for details.
 
+Run on Docker Desktop (macOS)
+=============================
+
+Same flow with Docker Desktop::
+
+    ./deploy/docker/deploy.sh      # then open http://localhost:8080
+
+See ``deploy/docker/README.md`` for details.
+
 Connect
 =======
 
