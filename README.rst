@@ -52,6 +52,15 @@ Build from this checkout and start SearXNG with Valkey on OrbStack::
 
 See ``deploy/orbstack/README.md`` for configuration and troubleshooting.
 
+Run on Podman (macOS)
+=====================
+
+Same flow with ``podman`` and ``podman-compose``::
+
+    ./deploy/podman/deploy.sh      # then open http://localhost:8080
+
+See ``deploy/podman/README.md`` for details.
+
 Connect
 =======
 
